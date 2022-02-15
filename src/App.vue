@@ -6,7 +6,8 @@
   <!-- <TwoWayBinding9/> -->
   <!-- <IfElse10/> -->
   <!-- <ForLoop13/> -->
-  <Parents14/>
+  <!-- <Parents14/> -->
+  <ParentsUser15/>
 </template>
 
 <script>
@@ -16,7 +17,8 @@
 // import  TwoWayBinding9 from'./components/TwoWayBinding9'
 // import IfElse10 from './components/IfElse10'
 // import ForLoop13 from './components/ForLoop13'
-import  Parents14 from './components/Parents14'
+// import  Parents14 from './components/Parents14'
+import ParentsUser15 from './components/ParentsUser15'
 export default {
   name: 'App',
   components: {
@@ -26,7 +28,8 @@ export default {
     // TwoWayBinding9,
     // IfElse10,
     // ForLoop13,
-    Parents14,
+    // Parents14,
+    ParentsUser15,
   }
 }
 </script>
