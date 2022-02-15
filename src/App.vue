@@ -5,7 +5,8 @@
   <!-- <Events8/> -->
   <!-- <TwoWayBinding9/> -->
   <!-- <IfElse10/> -->
-  <ForLoop13/>
+  <!-- <ForLoop13/> -->
+  <Parents14/>
 </template>
 
 <script>
@@ -14,7 +15,8 @@
 // import Events8 from './components/Events8'
 // import  TwoWayBinding9 from'./components/TwoWayBinding9'
 // import IfElse10 from './components/IfElse10'
-import ForLoop13 from './components/ForLoop13'
+// import ForLoop13 from './components/ForLoop13'
+import  Parents14 from './components/Parents14'
 export default {
   name: 'App',
   components: {
@@ -23,7 +25,8 @@ export default {
     // Events8,
     // TwoWayBinding9,
     // IfElse10,
-    ForLoop13,
+    // ForLoop13,
+    Parents14,
   }
 }
 </script>
