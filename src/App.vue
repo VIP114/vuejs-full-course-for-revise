@@ -9,7 +9,8 @@
   <!-- <Parents14/> -->
   <!-- <ParentsUser15/> -->
   <!-- <HTMLBinding16/> -->
-  <ClassBinding17/>
+  <!-- <ClassBinding17/> -->
+  <Main18props/>
 </template>
 
 <script>
@@ -22,7 +23,8 @@
 // import  Parents14 from './components/Parents14'
 // import ParentsUser15 from './components/ParentsUser15'
 // import  HTMLBinding16 from './components/HTMLBinding16'
-import  ClassBinding17 from './components/ClassBinding17'
+// import  ClassBinding17 from './components/ClassBinding17'
+import Main18props from './components/Main18props'
 export default {
   name: 'App',
   components: {
@@ -35,7 +37,8 @@ export default {
     // Parents14,
     // ParentsUser15,
     // HTMLBinding16,
-    ClassBinding17,
+    // ClassBinding17,
+    Main18props,
   }
 }
 </script>
