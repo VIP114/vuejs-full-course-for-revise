@@ -6,6 +6,11 @@
     <h3>Moile no:-{{mobile='8734934281'}}</h3>
     <h3>name: {{getName()}}</h3>
     <h3>Gender: {{getGender('male')}}</h3>
+    <h3>name1: {{getName1( )}}</h3>
+    <h3>name2: {{getName2('vipatel')}}</h3>
+    <h3>Data: {{getData1()}}</h3>
+    <h3>Data: {{getData1().name}}</h3>
+    <h3>Data: {{getData1().email}}</h3>
     </div>
 </template>
 <script>
@@ -23,7 +28,22 @@ export default {
             }
         }
     },
-    
+    methods: {
+        getName1(){
+            return 'vip'
+        },
+        getName2(name){
+            return name
+        },
+        getData1(){
+            return{
+                name:'dhruv',
+                // email:'dhruv@gmail.com',
+                email:this.email,
+                mo:'8787678909'
+            }
+        }
+    },
 }
 </script>
 <style scoped>
