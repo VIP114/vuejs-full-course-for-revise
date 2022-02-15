@@ -4,7 +4,8 @@
   <!-- <home5/> -->
   <!-- <Events8/> -->
   <!-- <TwoWayBinding9/> -->
-  <IfElse10/>
+  <!-- <IfElse10/> -->
+  <ForLoop13/>
 </template>
 
 <script>
@@ -12,7 +13,8 @@
 // import home5 from './components/home5'
 // import Events8 from './components/Events8'
 // import  TwoWayBinding9 from'./components/TwoWayBinding9'
-import IfElse10 from './components/IfElse10'
+// import IfElse10 from './components/IfElse10'
+import ForLoop13 from './components/ForLoop13'
 export default {
   name: 'App',
   components: {
@@ -20,7 +22,8 @@ export default {
     // home5,
     // Events8,
     // TwoWayBinding9,
-    IfElse10,
+    // IfElse10,
+    ForLoop13,
   }
 }
 </script>
