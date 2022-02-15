@@ -7,7 +7,8 @@
   <!-- <IfElse10/> -->
   <!-- <ForLoop13/> -->
   <!-- <Parents14/> -->
-  <ParentsUser15/>
+  <!-- <ParentsUser15/> -->
+  <HTMLBinding16/>
 </template>
 
 <script>
@@ -18,7 +19,8 @@
 // import IfElse10 from './components/IfElse10'
 // import ForLoop13 from './components/ForLoop13'
 // import  Parents14 from './components/Parents14'
-import ParentsUser15 from './components/ParentsUser15'
+// import ParentsUser15 from './components/ParentsUser15'
+import  HTMLBinding16 from './components/HTMLBinding16'
 export default {
   name: 'App',
   components: {
@@ -29,7 +31,8 @@ export default {
     // IfElse10,
     // ForLoop13,
     // Parents14,
-    ParentsUser15,
+    // ParentsUser15,
+    HTMLBinding16,
   }
 }
 </script>
