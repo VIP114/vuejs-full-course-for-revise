@@ -8,7 +8,8 @@
   <!-- <ForLoop13/> -->
   <!-- <Parents14/> -->
   <!-- <ParentsUser15/> -->
-  <HTMLBinding16/>
+  <!-- <HTMLBinding16/> -->
+  <ClassBinding17/>
 </template>
 
 <script>
@@ -20,7 +21,8 @@
 // import ForLoop13 from './components/ForLoop13'
 // import  Parents14 from './components/Parents14'
 // import ParentsUser15 from './components/ParentsUser15'
-import  HTMLBinding16 from './components/HTMLBinding16'
+// import  HTMLBinding16 from './components/HTMLBinding16'
+import  ClassBinding17 from './components/ClassBinding17'
 export default {
   name: 'App',
   components: {
@@ -32,7 +34,8 @@ export default {
     // ForLoop13,
     // Parents14,
     // ParentsUser15,
-    HTMLBinding16,
+    // HTMLBinding16,
+    ClassBinding17,
   }
 }
 </script>
