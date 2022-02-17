@@ -12,7 +12,8 @@
   <!-- <ClassBinding17/> -->
   <!-- <Main18props/> -->
   <!-- <Main19/> -->
-  <Ref20/>
+  <!-- <Ref20/> -->
+  <SimpleForm21/>
 </template>
 
 <script>
@@ -28,7 +29,8 @@
 // import  ClassBinding17 from './components/ClassBinding17'
 // import Main18props from './components/Main18props'
 // import Main19 from './components/Main19'
-import Ref20 from './components/Ref20'
+// import Ref20 from './components/Ref20'
+import  SimpleForm21 from './components/SimpleForm21'
 export default {
   name: 'App',
   components: {
@@ -44,7 +46,8 @@ export default {
     // ClassBinding17,
     // Main18props,
     // Main19,
-    Ref20,
+    // Ref20,
+    SimpleForm21,
   }
 }
 </script>
