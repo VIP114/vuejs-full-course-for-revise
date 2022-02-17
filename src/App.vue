@@ -11,7 +11,8 @@
   <!-- <HTMLBinding16/> -->
   <!-- <ClassBinding17/> -->
   <!-- <Main18props/> -->
-  <Main19/>
+  <!-- <Main19/> -->
+  <Ref20/>
 </template>
 
 <script>
@@ -26,7 +27,8 @@
 // import  HTMLBinding16 from './components/HTMLBinding16'
 // import  ClassBinding17 from './components/ClassBinding17'
 // import Main18props from './components/Main18props'
-import Main19 from './components/Main19'
+// import Main19 from './components/Main19'
+import Ref20 from './components/Ref20'
 export default {
   name: 'App',
   components: {
@@ -41,7 +43,8 @@ export default {
     // HTMLBinding16,
     // ClassBinding17,
     // Main18props,
-    Main19,
+    // Main19,
+    Ref20,
   }
 }
 </script>
