@@ -1,6 +1,12 @@
 <template>
     <div>
         <h1>21. (2:23:50) Simple form in Vue js 21 & 22 </h1>
+        <ul>
+            <li v-for="item in error" v-bind:key="item">
+                {{item}} is not valid
+
+            </li>
+        </ul>
         <form action="">
             <label for="">Email:-</label>
             <input type="text" placeholder="Enter your email : " v-model="form.email" />
@@ -10,11 +16,11 @@
             <input type="password" placeholder="Enter your Password : " v-model="form.password" />
             <br/>
             <br/>
-            <select name="" id="" v-model="form.country">
-                <option value="">India</option>
-                <option value="">USA</option>
-                <option value="">Russia</option>
-                <option value="">Canada</option>
+            <select  v-model="form.country">
+                <option>USA</option>
+                <option>Russia</option>
+                <option>Canada</option>
+                <option>India</option>
                 
             </select>
             <br/>
@@ -55,14 +61,27 @@ export default {
                 country:'',
                 gender:'',
                 technology:[],
-            }
+            },
+            error:[]
         }
     },
     methods: {
         login(){
             // alert(this.form)
-            console.log(this.form);
-            console.warn(this.form);
+            // console.log(this.form);
+            // console.warn(this.form);
+            this.error=[]
+            for(const item  in this.form){
+                if(this.form[item]=== ""  || this.form[item].length=== 0)
+                {
+                    this.error.push(item)
+                }
+            }
+                if(this.error.length===0)
+                {
+                    alert("data has been submited")
+                }
+                console.warn(this.error);
         }
     },
 }
