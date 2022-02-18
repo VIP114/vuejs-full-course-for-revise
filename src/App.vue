@@ -18,7 +18,8 @@
   <!-- <ComputedPropes25/> -->
   <!-- <Watchers26/> -->
   <!-- <ParentsSlots27/> -->
-  <ParentsMultipleSlots28/> 
+  <!-- <ParentsMultipleSlots28/>  -->
+  <DynamicComponents29/>
 </template>
 
 <script>
@@ -40,7 +41,8 @@
 // import ComputedPropes25 from './components/ComputedPropes25'
 // import Watchers26 from './components/Watchers26'
 // import ParentsSlots27 from './components/ParentsSlots27'
-import ParentsMultipleSlots28 from './components/ParentsMultipleSlots28'
+// import ParentsMultipleSlots28 from './components/ParentsMultipleSlots28'
+import DynamicComponents29 from './components/DynamicComponents29'
 export default {
   name: 'App',
   components: {
@@ -62,7 +64,8 @@ export default {
     // ComputedPropes25,
     // Watchers26,
     // ParentsSlots27,
-    ParentsMultipleSlots28,
+    // ParentsMultipleSlots28,
+    DynamicComponents29,
   }
 }
 </script>
