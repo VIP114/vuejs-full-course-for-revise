@@ -17,7 +17,8 @@
   <!-- <MainParents24/> -->
   <!-- <ComputedPropes25/> -->
   <!-- <Watchers26/> -->
-  <ParentsSlots27/>
+  <!-- <ParentsSlots27/> -->
+  <ParentsMultipleSlots28/> 
 </template>
 
 <script>
@@ -38,7 +39,8 @@
 // import MainParents24 from './components/MainParents24'
 // import ComputedPropes25 from './components/ComputedPropes25'
 // import Watchers26 from './components/Watchers26'
-import ParentsSlots27 from './components/ParentsSlots27'
+// import ParentsSlots27 from './components/ParentsSlots27'
+import ParentsMultipleSlots28 from './components/ParentsMultipleSlots28'
 export default {
   name: 'App',
   components: {
@@ -59,7 +61,8 @@ export default {
     // MainParents24,
     // ComputedPropes25,
     // Watchers26,
-    ParentsSlots27,
+    // ParentsSlots27,
+    ParentsMultipleSlots28,
   }
 }
 </script>
