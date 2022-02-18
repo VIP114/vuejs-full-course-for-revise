@@ -19,7 +19,8 @@
   <!-- <Watchers26/> -->
   <!-- <ParentsSlots27/> -->
   <!-- <ParentsMultipleSlots28/>  -->
-  <DynamicComponents29/>
+  <!-- <DynamicComponents29/> -->
+  <Main30/>
 </template>
 
 <script>
@@ -42,7 +43,8 @@
 // import Watchers26 from './components/Watchers26'
 // import ParentsSlots27 from './components/ParentsSlots27'
 // import ParentsMultipleSlots28 from './components/ParentsMultipleSlots28'
-import DynamicComponents29 from './components/DynamicComponents29'
+// import DynamicComponents29 from './components/DynamicComponents29'
+import Main30 from './components/Main30'
 export default {
   name: 'App',
   components: {
@@ -65,7 +67,8 @@ export default {
     // Watchers26,
     // ParentsSlots27,
     // ParentsMultipleSlots28,
-    DynamicComponents29,
+    // DynamicComponents29,
+    Main30,
   }
 }
 </script>
