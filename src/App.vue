@@ -20,7 +20,8 @@
   <!-- <ParentsSlots27/> -->
   <!-- <ParentsMultipleSlots28/>  -->
   <!-- <DynamicComponents29/> -->
-  <Main30/>
+  <!-- <Main30/> -->
+  <BeforeCreated32/>
 </template>
 
 <script>
@@ -44,7 +45,8 @@
 // import ParentsSlots27 from './components/ParentsSlots27'
 // import ParentsMultipleSlots28 from './components/ParentsMultipleSlots28'
 // import DynamicComponents29 from './components/DynamicComponents29'
-import Main30 from './components/Main30'
+// import Main30 from './components/Main30'
+import  BeforeCreated32 from './components/BeforeCreated32'
 export default {
   name: 'App',
   components: {
@@ -68,7 +70,8 @@ export default {
     // ParentsSlots27,
     // ParentsMultipleSlots28,
     // DynamicComponents29,
-    Main30,
+    // Main30,
+    BeforeCreated32,
   }
 }
 </script>
