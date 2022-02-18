@@ -14,7 +14,8 @@
   <!-- <Main19/> -->
   <!-- <Ref20/> -->
   <!-- <SimpleForm21/> -->
-  <MainParents24/>
+  <!-- <MainParents24/> -->
+  <ComputedPropes25/>
 </template>
 
 <script>
@@ -32,7 +33,8 @@
 // import Main19 from './components/Main19'
 // import Ref20 from './components/Ref20'
 // import  SimpleForm21 from './components/SimpleForm21'
-import MainParents24 from './components/MainParents24'
+// import MainParents24 from './components/MainParents24'
+import ComputedPropes25 from './components/ComputedPropes25'
 export default {
   name: 'App',
   components: {
@@ -50,7 +52,8 @@ export default {
     // Main19,
     // Ref20,
     // SimpleForm21,
-    MainParents24,
+    // MainParents24,
+    ComputedPropes25,
   }
 }
 </script>
