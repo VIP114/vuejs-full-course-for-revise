@@ -22,7 +22,8 @@
   <!-- <DynamicComponents29/> -->
   <!-- <Main30/> -->
   <!-- <BeforeCreated32/> -->
-  <BeforeMount33/>
+  <!-- <BeforeMount33/> -->
+  <Update34/>
 </template>
 
 <script>
@@ -48,7 +49,8 @@
 // import DynamicComponents29 from './components/DynamicComponents29'
 // import Main30 from './components/Main30'
 // import  BeforeCreated32 from './components/BeforeCreated32'
-import BeforeMount33 from './components/BeforeMount33'
+// import BeforeMount33 from './components/BeforeMount33'
+import Update34 from './components/Update34'
 export default {
   name: 'App',
   components: {
@@ -74,7 +76,8 @@ export default {
     // DynamicComponents29,
     // Main30,
     // BeforeCreated32,
-    BeforeMount33,
+    // BeforeMount33,
+    Update34,
   }
 }
 </script>
