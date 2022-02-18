@@ -16,7 +16,8 @@
   <!-- <SimpleForm21/> -->
   <!-- <MainParents24/> -->
   <!-- <ComputedPropes25/> -->
-  <Watchers26/>
+  <!-- <Watchers26/> -->
+  <ParentsSlots27/>
 </template>
 
 <script>
@@ -36,7 +37,8 @@
 // import  SimpleForm21 from './components/SimpleForm21'
 // import MainParents24 from './components/MainParents24'
 // import ComputedPropes25 from './components/ComputedPropes25'
-import Watchers26 from './components/Watchers26'
+// import Watchers26 from './components/Watchers26'
+import ParentsSlots27 from './components/ParentsSlots27'
 export default {
   name: 'App',
   components: {
@@ -56,7 +58,8 @@ export default {
     // SimpleForm21,
     // MainParents24,
     // ComputedPropes25,
-    Watchers26,
+    // Watchers26,
+    ParentsSlots27,
   }
 }
 </script>
