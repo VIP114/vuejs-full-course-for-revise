@@ -1,10 +1,21 @@
 <template>
     <div>
-        <h2>Profile router page</h2>
+        <h2>{{profile}}Profile router page</h2>
     </div>
-</template>
+</template> 
 <script>
+import {useRoute} from 'vue-router'
 export default {
-    name:"",
+    name:"ProfileRouter",
+    data() {
+        return {
+            profile:'',
+        }
+    },
+    mounted() {
+        const route = useRoute()
+        console.warn("route",route.params.name);
+        this.profile=route.params.name
+    },
 }
 </script>
