@@ -1,4 +1,10 @@
 <template>
+<router-link to="/">Home page</router-link>
+<br/>
+<router-link to="/login">Login page</router-link>
+<br/>
+<router-link to="/profile">Profile page</router-link>
+<router-view/>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <home5/> -->
@@ -24,7 +30,7 @@
   <!-- <BeforeCreated32/> -->
   <!-- <BeforeMount33/> -->
   <!-- <Update34/> -->
-  <Main35/>
+  <!-- <Main35/> -->
 </template>
 
 <script>
@@ -52,7 +58,7 @@
 // import  BeforeCreated32 from './components/BeforeCreated32'
 // import BeforeMount33 from './components/BeforeMount33'
 // import Update34 from './components/Update34'
-import Main35 from './components/Main35'
+// import Main35 from './components/Main35'
 export default {
   name: 'App',
   components: {
@@ -80,7 +86,7 @@ export default {
     // BeforeCreated32,
     // BeforeMount33,
     // Update34,
-    Main35,
+    // Main35,
   }
 }
 </script>
