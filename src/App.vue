@@ -38,7 +38,8 @@
   <!-- <BeforeMount33/> -->
   <!-- <Update34/> -->
   <!-- <Main35/> -->
-  <API39/>
+  <!-- <API39/> -->
+  <API41/>
 </template>
 
 <script>
@@ -67,7 +68,8 @@
 // import BeforeMount33 from './components/BeforeMount33'
 // import Update34 from './components/Update34'
 // import Main35 from './components/Main35'
-import API39 from './components/API39'
+// import API39 from './components/API39'
+import API41 from './components/API41'
 export default {
   name: 'App',
   components: {
@@ -96,7 +98,8 @@ export default {
     // BeforeMount33,
     // Update34,
     // Main35,
-    API39,
+    // API39,
+    API41,
   }
 }
 </script>
