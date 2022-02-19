@@ -3,13 +3,13 @@
 <br/>
 <router-link to="/login">Login page</router-link>
 <br/>
-<router-link to="/profile/:name">Profile page</router-link>
+<router-link to="/profile">Profile page</router-link>
 <br/>
-<router-link to="/profile/vishv">Vishv `sProfile page</router-link>
+<!-- <router-link to="/profile/vishv">Vishv `sProfile page</router-link>
 <br/>
 <router-link to="/profile/dhruv">Dhruv `sProfile page</router-link>
 <br/>
-<router-link to="/profile/harsh">Harsh `sProfile page</router-link>
+<router-link to="/profile/harsh">Harsh `sProfile page</router-link> -->
 
 <router-view/>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
