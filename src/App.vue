@@ -1,17 +1,17 @@
 <template>
-<router-link to="/">Home page</router-link>
+<!-- <router-link to="/">Home page</router-link>
 <br/>
 <router-link to="/login">Login page</router-link>
 <br/>
 <router-link to="/profile">Profile page</router-link>
-<br/>
+<br/> -->
 <!-- <router-link to="/profile/vishv">Vishv `sProfile page</router-link>
 <br/>
 <router-link to="/profile/dhruv">Dhruv `sProfile page</router-link>
 <br/>
 <router-link to="/profile/harsh">Harsh `sProfile page</router-link> -->
 
-<router-view/>
+<!-- <router-view/> -->
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <home5/> -->
@@ -38,6 +38,7 @@
   <!-- <BeforeMount33/> -->
   <!-- <Update34/> -->
   <!-- <Main35/> -->
+  <API39/>
 </template>
 
 <script>
@@ -66,6 +67,7 @@
 // import BeforeMount33 from './components/BeforeMount33'
 // import Update34 from './components/Update34'
 // import Main35 from './components/Main35'
+import API39 from './components/API39'
 export default {
   name: 'App',
   components: {
@@ -94,6 +96,7 @@ export default {
     // BeforeMount33,
     // Update34,
     // Main35,
+    API39,
   }
 }
 </script>
