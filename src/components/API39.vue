@@ -1,10 +1,16 @@
 <template>
   <div>
     <h1>api page</h1>
-    <p v-for="item in list" :key="item">
+    <!-- <p v-for="item in list" :key="item">
         {{ item }}
-    </p>
-    
+    </p> -->
+    <div>
+      <ul class="item" v-for="item in list" :key="item">
+        <li>{{ item.id }}</li>
+        <li>{{ item.userId }}</li>
+        <li>{{ item.title}}</li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>
@@ -23,3 +29,13 @@ export default {
   },
 };
 </script>
+<style scoped>
+.item li{
+    display: inline-block;
+    border: 2px solid red;
+    width: 400px;
+    pad: 10px;
+    display: flex;
+
+}
+</style>
